@@ -3,7 +3,6 @@ from aiogram.dispatcher.filters import ChatTypeFilter
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import logging
 import asyncio
-from task_manager import TaskManager
 import re
 import os
 import time
@@ -13,7 +12,6 @@ OWNER_ID = user_id
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
-task_manager = TaskManager()
 
 logging.basicConfig(level=logging.INFO)
 
