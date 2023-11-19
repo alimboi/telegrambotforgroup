@@ -7,8 +7,8 @@ import re
 import os
 import time
 
-API_TOKEN = '5940765854:AAEvo4IUJEmrNuuv9EXEdFhvxSI15YDJoEE'
-OWNER_ID = 5288036324
+API_TOKEN = 'bot token'
+OWNER_ID = userid
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
